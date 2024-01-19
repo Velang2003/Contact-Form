@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contact form</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-main">
+               
+                <div class="contact-heading">
+                   <h3>Contact Me!</h3>
+                    <hr> 
+                </div>
+                <input type="hidden" name="access_key" value="4816acd3-bac7-4cbb-9dee-39e6cc18d24c"> 
+                <input type="text" name="name" class="contact-inputs" placeholder="Your Name" required>
+                <input type="email" name="email" class="contact-inputs" placeholder="Your Email" required>
+                <textarea type="message" placeholder="Your Message" name="Message" class="contact-inputs" required></textarea>
+                <button type="submit">SUBMIT<img src="assets/arrow.png" alt=""></button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
